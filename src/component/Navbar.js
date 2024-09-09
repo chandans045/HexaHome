@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-
+//hello h
 const Navbar = ({ onSearchChange, filteredAreas = [] }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
